@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem"
 const SectionItem = ({menuTitle}) => {
 
   const menuItems = menuTitle.items.map((item) => {
-    return <MenuItem item = {item}/>
+    return <MenuItem key={item.id} item = {item}/>
   })
   return (
     <div>

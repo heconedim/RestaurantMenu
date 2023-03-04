@@ -1,13 +1,13 @@
 import Header from "./components/Header"
 import {menuSections} from "./assets/data/DataStructure"
-import SectionItem from "./components/SectionItem"
+import SectionList from "./components/SectionList"
 
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <SectionItem menu={menuSections}/>
+      <SectionList menu={menuSections}/>
     </div>
   );
 }
